@@ -22,7 +22,7 @@ You'll need:
     [here](https://pulumi.io/quickstart/install.html). Pulumi works anywhere
     `kubectl` works (i.e., anywhere you have a kubeconfig file), so it should
     "just work" if you already have a Kubernetes cluster running.
--   **`kubespy`.** Installation is a handful of commands, which you can find in the [README](https://github.com/pulumi/kubespy#installation).
+-   **`kubespy`.** Installation is a handful of commands, which you can find in the [README](https://github.com/DarcySail/kubespy#installation).
 
 Once these are complete, you'll want to do two things:
 
@@ -34,13 +34,13 @@ Once these are complete, you'll want to do two things:
 
     ```sh
     # With Pulumi CLI.
-    $ git clone git@github.com:pulumi/kubespy.git
+    $ git clone git@github.com:DarcySail/kubespy.git
     $ cd kubespy/examples/trivial-service-trace-example
     $ npm install
     $ pulumi up
 
     # With kubectl.
-    kubectl create -f https://github.com/pulumi/kubespy/raw/master/examples/trivial-service-trace-example/yaml/nginx.yaml
+    kubectl create -f https://github.com/DarcySail/kubespy/raw/master/examples/trivial-service-trace-example/yaml/nginx.yaml
     ```
 
 Once done, running `kubespy trace service nginx` should display something like this:

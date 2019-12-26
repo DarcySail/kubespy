@@ -47,4 +47,4 @@ Currently `kubespy trace` supports _only_ `Service` and `Deployment`. But also o
 -   `Ingress`
 -   `StatefulSet`
 
-[new-issue]: https://github.com/pulumi/kubespy/issues/new
+[new-issue]: https://github.com/DarcySail/kubespy/issues/new

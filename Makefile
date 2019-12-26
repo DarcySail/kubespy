@@ -1,8 +1,8 @@
-PROJECT          := github.com/pulumi/kubespy
+PROJECT          := github.com/DarcySail/kubespy
 
 VERSION         := $(shell scripts/get-version)
 
-VERSION_FLAGS   := -ldflags "-X github.com/pulumi/kubespy/version.Version=${VERSION}"
+VERSION_FLAGS   := -ldflags "-X github.com/DarcySail/kubespy/version.Version=${VERSION}"
 
 GO              ?= go
 GOMETALINTERBIN ?= gometalinter

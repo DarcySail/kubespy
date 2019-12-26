@@ -1,5 +1,5 @@
 {"version": 2, "width": 80, "height": 22, "timestamp": 1537898587, "env": {"SHELL": "/bin/zsh", "TERM": "xterm-256color"}}
-[0.278894, "o", "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r\u001b]2;alex@fabienne-2: ~/go/src/github.com/pulumi/kubespy\u0007"]
+[0.278894, "o", "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r\u001b]2;alex@fabienne-2: ~/go/src/github.com/DarcySail/kubespy\u0007"]
 [0.279883, "o", "\u001b]1;..ulumi/kubespy\u0007"]
 [0.322686, "o", "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mkubespy\u001b[00m \u001b[01;34mgit:(\u001b[31mhausdorff/trace-svc\u001b[34m) \u001b[33m✗\u001b[00m \u001b[K"]
 [0.32296, "o", "\u001b[?1h\u001b=\u001b[?2004h"]
@@ -22,7 +22,7 @@
 [9.513146, "o", "^C"]
 [9.515921, "o", "\r\n"]
 [9.516107, "o", "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r"]
-[9.516256, "o", "\u001b]2;alex@fabienne-2: ~/go/src/github.com/pulumi/kubespy\u0007\u001b]1;..ulumi/kubespy\u0007"]
+[9.516256, "o", "\u001b]2;alex@fabienne-2: ~/go/src/github.com/DarcySail/kubespy\u0007\u001b]1;..ulumi/kubespy\u0007"]
 [9.552787, "o", "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;31m➜  \u001b[36mkubespy\u001b[00m \u001b[01;34mgit:(\u001b[31mhausdorff/trace-svc\u001b[34m) \u001b[33m✗\u001b[00m \u001b[K"]
 [9.552843, "o", "\u001b[?1h\u001b="]
 [9.552996, "o", "\u001b[?2004h"]

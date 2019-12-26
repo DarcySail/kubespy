@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/pulumi/kubespy/cmd"
+	"github.com/darcysail/kubespy/cmd"
 )
 
 func init() {

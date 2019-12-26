@@ -9,8 +9,8 @@ import (
 
 	"github.com/fatih/color"
 	"github.com/mbrlabs/uilive"
-	"github.com/pulumi/kubespy/k8sobject"
-	"github.com/pulumi/kubespy/pods"
+	"github.com/DarcySail/kubespy/k8sobject"
+	"github.com/DarcySail/kubespy/pods"
 	"github.com/pulumi/pulumi-kubernetes/pkg/openapi"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	k8sWatch "k8s.io/apimachinery/pkg/watch"

@@ -33,7 +33,7 @@ brew install kubespy
 
 ### Binary
 
-Get the [latest release](https://github.com/pulumi/kubespy/releases),
+Get the [latest release](https://github.com/DarcySail/kubespy/releases),
 rename it to `kubespy`, run `chmod +x kubespy` to make it executable and move it in your path (can be /usr/local/bin).
 
 ### Kubectl Plugin
@@ -49,7 +49,7 @@ Prerequisite: [Go](https://golang.org/) version 1.11 or later
 kubespy can be installed via golang by running the following:
 
 ```sh
-git clone git@github.com:pulumi/kubespy.git
+git clone git@github.com:DarcySail/kubespy.git
 cd kubespy
 # If $GOPATH is not set, you can run `go build` instead, and then put in a
 # binary directory on your path
@@ -72,7 +72,7 @@ Several more commands are planned as well.
 
 ## Examples
 
-For a concrete example you can run using either `Pulumi CLI` or `kubectl`, check out [examples/trivial-pulumi-example](https://github.com/pulumi/kubespy/tree/master/examples/trivial-pulumi-example).
+For a concrete example you can run using either `Pulumi CLI` or `kubectl`, check out [examples/trivial-pulumi-example](https://github.com/DarcySail/kubespy/tree/master/examples/trivial-pulumi-example).
 
 ## Features
 

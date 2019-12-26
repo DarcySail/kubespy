@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/fatih/color"
-	"github.com/pulumi/kubespy/k8sobject"
+	"github.com/DarcySail/kubespy/k8sobject"
 	"github.com/pulumi/pulumi-kubernetes/pkg/client"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
@@ -15,9 +15,8 @@ import (
 	"k8s.io/client-go/discovery"
 	"k8s.io/client-go/dynamic"
 	"k8s.io/client-go/tools/clientcmd"
-
 	// Load auth plugins. Removing this will likely cause compilation error.
-	_ "k8s.io/client-go/plugin/pkg/client/auth"
+	//_ "k8s.io/client-go/plugin/pkg/client/auth"
 )
 
 var (

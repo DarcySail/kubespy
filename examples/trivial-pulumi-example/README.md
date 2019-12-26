@@ -9,7 +9,7 @@ You'll need:
 
 -   **Access to a Kubernetes cluster.** If you are using Pulumi, you can trivially boot an [GKE](https://github.com/pulumi/examples/tree/master/gcp-ts-gke), [AKS](https://github.com/pulumi/examples/tree/master/azure-ts-aks-mean), or [EKS](https://github.com/pulumi/examples/tree/master/aws-ts-eks) cluster. You can also use [minikube](https://github.com/kubernetes/minikube).
 -   **Either the Pulumi CLI or `kubectl`.** There is nothing Pulumi-specific in this example, so you can use `kubectl`, but we hope you'll give Pulumi a shot! The CLI installation instructions [here](https://pulumi.io/quickstart/install.html). Pulumi works anywhere `kubectl` works (i.e., anywhere you have a kubeconfig file), so it should "just work" if you already have a Kubernetes cluster running.
--   **`kubespy`.** Installation is a handful of commands, which you can find in the [README](https://github.com/pulumi/kubespy#installation).
+-   **`kubespy`.** Installation is a handful of commands, which you can find in the [README](https://github.com/DarcySail/kubespy#installation).
 
 Once these are complete, you'll want to do two things:
 
@@ -21,13 +21,13 @@ Once these are complete, you'll want to do two things:
 
     ```sh
     # With Pulumi CLI.
-    $ git clone git@github.com:pulumi/kubespy.git
+    $ git clone git@github.com:DarcySail/kubespy.git
     $ cd kubespy/examples/trivial-pulumi-example
     $ npm install
     $ pulumi up
 
     # With kubectl
-    kubectl create -f https://github.com/pulumi/kubespy/raw/master/examples/trivial-pulumi-example/yaml/nginx.yaml
+    kubectl create -f https://github.com/DarcySail/kubespy/raw/master/examples/trivial-pulumi-example/yaml/nginx.yaml
     ```
 
 Once done, `kubespy` should display something like this:

@@ -8,8 +8,8 @@ import (
 
 	"github.com/fatih/color"
 	"github.com/mbrlabs/uilive"
-	"github.com/pulumi/kubespy/print"
-	"github.com/pulumi/kubespy/watch"
+	"github.com/DarcySail/kubespy/print"
+	"github.com/DarcySail/kubespy/watch"
 	"github.com/spf13/cobra"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	k8sWatch "k8s.io/apimachinery/pkg/watch"

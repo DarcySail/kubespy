@@ -6,7 +6,7 @@ import (
 	"log"
 
 	"github.com/fatih/color"
-	"github.com/pulumi/kubespy/watch"
+	"github.com/DarcySail/kubespy/watch"
 	"github.com/spf13/cobra"
 	"github.com/yudai/gojsondiff"
 	"github.com/yudai/gojsondiff/formatter"

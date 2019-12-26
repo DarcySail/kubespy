@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/pulumi/kubespy/version"
+	"github.com/DarcySail/kubespy/version"
 	"github.com/spf13/cobra"
 )
 
